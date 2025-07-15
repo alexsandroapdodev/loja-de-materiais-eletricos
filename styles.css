@@ -206,6 +206,10 @@ aside {
   font-weight: bold;
 }
 
+.nossas-lojas {
+  margin-left: -70px;
+}
+
 .link-whatsapp {
   width: 48px;
 }
@@ -412,6 +416,7 @@ section {
 
 .avaliacoes {
   font-family: "Montserrat", sans-serif;
+  margin-left: -50px;
 }
 
 .clientes {
@@ -586,12 +591,12 @@ section {
   font-weight: 600;
   border-radius: 6px;
   margin-top: 32px;
-  margin-left: 744px;
+  margin-left: 644px;
 }
 
 .as-melhores-marcas {
   margin-top: -50px;
-  margin-left: -150px;
+  margin-left: -250px;
 }
 
 .caixa-lorenzetti {
