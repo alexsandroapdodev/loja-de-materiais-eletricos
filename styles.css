@@ -1,0 +1,663 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  background-color: #d0c8c8;
+}
+
+nav {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 1520px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.img-telefone-transparente {
+  margin-left: 115px;
+}
+
+.p-telefone-transparente {
+  color: #d1d1d1;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.img-endereco-transparente {
+  margin-left: 15px;
+}
+
+.p-endereco-transparente {
+  color: #d1d1d1;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.img-facebook {
+  margin-left: 650px;
+}
+
+.img-instagram {
+  margin-left: 10.25px;
+}
+
+.img-youtube {
+  margin-left: 10.25px;
+}
+
+header {
+  background-color: #2c2c2c;
+  max-width: 1520px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.img-eletromile {
+  margin-left: 102px;
+}
+
+.link-lojas {
+  margin-left: 650px;
+  color: #fcc707;
+  text-decoration: none;
+}
+
+.link-promocoes {
+  margin-left: 23px;
+  color: #fcc707;
+  text-decoration: none;
+}
+
+.link-sobre {
+  margin-left: 25px;
+  color: #fcc707;
+  text-decoration: none;
+}
+
+.link-contato {
+  margin-left: 25px;
+  width: 130px;
+  height: 40px;
+  color: #2c2c2c;
+  font-weight: bold;
+  background-color: #fcc707;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-contato:hover {
+  opacity: 0.5;
+}
+
+main {
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  height: 772px;
+  background-image: url(./assets/imagens/background.png);
+  background-size: 1520px 800px;
+}
+
+.btn-saiba-mais {
+  width: 199px;
+  height: 45px;
+  background-color: #211a00;
+  color: #fcc707;
+  margin-top: 509px;
+  margin-left: 660px;
+  border: none;
+  cursor: pointer;
+  border-radius: 24px;
+  font-size: 17px;
+}
+
+.caixa-geral {
+  position: relative;
+  width: 1520px;
+  margin: 0 auto;
+}
+
+aside {
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  height: 872px;
+  background-color: #ffffff;
+}
+
+.caixa-principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1446px;
+  height: 99px;
+  border: transparent;
+  background-color: #ffffff;
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 722px;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.caixa-principal .item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.caixa-principal .item .textos {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.linha-vertical {
+  position: absolute;
+  width: 1px;
+  height: 50px;
+  background-color: #fcc707;
+  left: -62px;
+}
+
+.linha-vertical5 {
+  position: absolute;
+  width: 1px;
+  height: 50px;
+  background-color: #fcc707;
+  right: -62px;
+  margin-top: -3px;
+}
+
+.circulo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fcc707;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.link-whatsapp {
+  width: 48px;
+}
+
+h1 {
+  padding-top: 122px;
+  padding-left: 700px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+span {
+  font-family: "Montserrat", sans-serif;
+}
+
+.cor2 {
+  color: #fcc707;
+}
+
+.img-rua-padre-luiz-533 {
+  width: 333px;
+  height: 493px;
+}
+
+.img-rua-padre-luiz-533-2 {
+  width: 483px;
+  height: 230px;
+  margin-top: -19px;
+}
+
+.img-rua-padre-luiz-533-3 {
+  width: 483px;
+  height: 239px;
+}
+
+.bloco-loja {
+  display: flex;
+  align-items: flex-start;
+  gap: 22px;
+  margin-top: 69px;
+  margin-left: 117px;
+}
+
+.caixa-conteudo {
+  display: flex;
+  align-items: flex-start;
+  gap: 72px;
+  margin-top: 20px;
+}
+
+.caixa-imagens {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.caixa-informacoes {
+  max-width: 400px;
+}
+
+.caixa-informacoes h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: -20px;
+}
+
+.caixa-informacoes h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: #211a00;
+  font-weight: 500;
+  margin-top: 42px;
+  white-space: nowrap;
+}
+
+.caixa-informacoes p {
+  width: 535px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #211a00;
+  margin-top: 12px;
+  font-weight: 400;
+}
+
+.localidade {
+  margin-left: 9.69px;
+  filter: brightness(0) invert(1);
+}
+
+.linha-horizontal {
+  width: 102.69px;
+  height: 1px;
+  margin-top: 28px;
+  background-color: #fcc707;
+}
+
+.link-como-chegar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 28px;
+  width: 153px;
+  height: 42px;
+  background-color: #211a00;
+  text-decoration: none;
+  color: #fcc707;
+  font-weight: bold;
+  border-radius: 6.2px;
+  font-size: 13px;
+}
+
+section {
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  height: 711px;
+  background-color: #fcc707;
+  margin: 0 auto;
+}
+
+.loja-1-rua-padre-luiz {
+  font-size: 32px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+
+.referencia-em-qualidade-eletrica {
+  margin-top: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.paragrafo-somos-referencia {
+  width: 550px;
+  height: 286px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.section-loja2 {
+  max-width: 1520px;
+  height: 711px;
+  background-image: url(./assets/imagens/background-texshadow.png);
+}
+
+.linha-horizontal2 {
+  width: 102.69px;
+  height: 1px;
+  margin-top: -140px;
+  background-color: #211a00;
+}
+
+.link-como-chegar2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 62px;
+  width: 153px;
+  height: 42px;
+  background-color: #211a00;
+  text-decoration: none;
+  color: #fcc707;
+  font-weight: bold;
+  border-radius: 6.2px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.container-loja2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  padding-top: 88px;
+  margin-left: 117px;
+}
+
+.bloco-loja2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+.caixa-conteudo2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 72px;
+  margin-top: 20px;
+}
+
+.caixa-imagens2 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.section-avaliacoes {
+  width: 1520px;
+  height: 2236px;
+  background-color: #ffffff;
+}
+
+.avaliacoes {
+  font-family: "Montserrat", sans-serif;
+}
+
+.clientes {
+  margin-left: 435px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #211a00;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.carta {
+  margin-top: 50px;
+  margin-left: 117px;
+}
+
+.carta2 {
+  margin-left: 88px;
+}
+
+.produtos-em-destaque {
+  margin-top: 200.47px;
+  margin-left: 115px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.clientes2 {
+  margin-left: 117px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #211a00;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.eletromile {
+  color: #fcc707;
+}
+
+.caixa-produtos {
+  display: flex;
+  flex-wrap: wrap; /* quebra linha se não couber */
+  gap: 79px; /* espaçamento entre os itens */
+  justify-content: center; /* centraliza os itens */
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  height: 1132px;
+  background-image: url(./assets/imagens/background2.png);
+  background-size: cover;
+  position: relative;
+}
+
+.produto {
+  width: 296px;
+  height: 422.27px;
+  border: 1px solid rgba(33, 26, 0, 0.1);
+  text-align: center;
+  margin-top: 94px;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background-color: #ffffff;
+}
+
+.img-produto {
+  width: 295.92px;
+  height: 207.36px;
+}
+
+.chuveiro-eletrico {
+  font-weight: bold;
+  margin-top: 8.94px;
+}
+
+.produto-sofisticado {
+  margin-top: 15px;
+}
+
+.linha-info-horizontal {
+  margin-top: 16px;
+  margin-left: 96.57px;
+  width: 98.47px;
+  height: 1.89px;
+  background-color: #fcc707;
+}
+
+.link-info-saiba-mais {
+  display: inline-block;
+  width: 108.68px;
+  height: 23.67px;
+  color: #fcc707;
+  background-color: #211a00;
+  border-radius: 6.2px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 9.62px;
+  font-weight: 600;
+  line-height: 23.67px;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.caixa-produtos2 {
+  display: flex;
+  gap: 20px; /* espaçamento entre os blocos */
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.img-produto10 {
+  margin-top: -90px;
+  margin-left: 50px;
+  width: 557.91px;
+  height: 326px;
+}
+
+.coluna-imagens {
+  display: flex;
+  flex-direction: column;
+  gap: 28.24px;
+  margin-top: -80px;
+  margin-left: 54.17px;
+  margin-right: 54.17px;
+  width: 212.9px;
+  height: 138.76px;
+}
+
+.img-produto13 {
+  margin-top: -90px;
+  width: 542.7px;
+  height: 326px;
+}
+
+.section-marcas {
+  width: 1520px;
+  height: 612px;
+  background-color: #ffffff;
+}
+
+.estao-aqui {
+  color: #fcc707;
+}
+
+.autorizados {
+  width: 1520px;
+  height: 343px;
+}
+
+.somos-autorizados {
+  margin-left: -700px;
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.quero-comprar {
+  display: inline-block;
+  width: 192px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  color: #fcc707;
+  background-color: #211a00;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: 744px;
+}
+
+.as-melhores-marcas {
+  margin-top: -50px;
+  margin-left: -150px;
+}
+
+.caixa-lorenzetti {
+  margin-left: 114px;
+}
+
+.img-lorenzetti {
+  margin-top: 70px;
+  margin-left: 30.22px;
+}
+
+footer {
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  height: 276px;
+  background-color: #211a00;
+  margin: 0 auto;
+}
+
+.promocoes {
+  color: #fcc707;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 120px;
+  margin-left: 273px;
+}
+
+.redes-sociais {
+  color: #fcc707;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 118px;
+}
+
+.logomarca-eletromile {
+  margin-left: 194px;
+}
+
+.marcas {
+  color: #fcc707;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 120px;
+  margin-left: 273px;
+}
+
+.lojas {
+  color: #fcc707;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 120px;
+  margin-left: 273px;
+}
+
+.linha-horizontal-footer {
+  width: 567px;
+  height: 1;
+  color: #fcc707;
+}
+
+.todos {
+  color: #fcc707;
+}
