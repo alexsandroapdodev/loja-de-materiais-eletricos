@@ -693,7 +693,7 @@ footer {
   }
 
   .img-facebook {
-    margin-left: 200px;
+    margin-left: 250px;
   }
 
   .img-instagram {
@@ -730,7 +730,7 @@ footer {
   .menu-toggle {
     display: block;
     z-index: 999;
-    margin-left: 205px;
+    margin-left: 250px;
   }
 
   .link-lojas,
@@ -742,14 +742,16 @@ footer {
 
   main {
     margin-left: 1px;
-    width: 483px;
+    width: 100%;
+    max-width: 483px;
     height: 250px;
     background-size: cover;
+    background-position: center;
   }
 
   .btn-saiba-mais {
     margin-top: 155px;
-    margin-left: 239px;
+    margin-left: 208px;
     width: 70px;
     height: 20px;
     font-size: 5px;
