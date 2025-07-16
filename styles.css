@@ -667,13 +667,19 @@ footer {
 }
 
 @media (max-width: 768px) {
-  html,
-  body {
+  html {
     overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  body {
+    background-color: #fff; /* ou transparente se quiser sumir */
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   .img-telefone-transparente {
-    margin-left: 5px;
+    margin-left: 15px;
   }
 
   .p-telefone-transparente {
@@ -693,7 +699,7 @@ footer {
   }
 
   .img-facebook {
-    margin-left: 250px;
+    margin-left: 230px;
   }
 
   .img-instagram {
@@ -758,18 +764,8 @@ footer {
     font-size: 9px;
   }
 
-  .img-caminhao {
-    width: 30px;
-    height: 20px;
-  }
-
-  .textos {
-    font-size: 5px;
-  }
-
-  .circulo {
-    width: 30px;
-    height: 20px;
+  .caixa-principal {
+    display: none;
   }
 
   .nossas-lojas {
@@ -790,24 +786,45 @@ footer {
   }
 
   .img-rua-padre-luiz-533-2 {
-    margin-left: 280px;
+    margin-left: -210px;
     width: 400px;
   }
 
   .img-rua-padre-luiz-533-3 {
-    margin-left: 280px;
+    margin-left: -210px;
     width: 400px;
   }
 
   .caixa-informacoes {
-    height: 0 auto;
+    display: none;
   }
 
   .section-loja2 {
     margin-top: 500px;
   }
 
-  .caixa-principal {
-    margin-top: -525px;
+  .caixa-informacoes {
+    display: flex;
+    flex-direction: column; /* muda de linha */
+    align-items: center;
+    padding: 0 16px;
+    gap: 20px;
+  }
+
+  h2 {
+    margin-left: -50px;
+  }
+
+  h3 {
+    margin-left: -50px;
+  }
+
+  p {
+    margin-left: -50px;
+    font-size: 8px;
+  }
+
+  aside {
+    height: 100%;
   }
 }
