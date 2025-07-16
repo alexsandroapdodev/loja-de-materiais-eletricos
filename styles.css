@@ -6,9 +6,9 @@
 }
 
 body {
-  overflow-x: hidden;
   max-width: 100%;
   background-color: #d0c8c8;
+  overflow-x: hidden;
 }
 
 nav {
@@ -664,4 +664,112 @@ footer {
 
 .todos {
   color: #fcc707;
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .img-telefone-transparente {
+    margin-left: 5px;
+  }
+
+  .p-telefone-transparente {
+    font-size: 12px;
+    white-space: nowrap;
+    display: none;
+  }
+
+  .img-endereco-transparente {
+    margin-left: 5px;
+  }
+
+  .p-endereco-transparente {
+    font-size: 12px;
+    white-space: nowrap;
+    display: none;
+  }
+
+  .img-facebook {
+    margin-left: 135px;
+  }
+
+  .img-instagram {
+    margin-left: 10.25px;
+  }
+
+  .img-youtube {
+    margin-left: 10.25px;
+  }
+
+  .img-eletromile {
+    margin-left: 5px;
+  }
+
+  #menu {
+    position: absolute; /* ou fixed */
+    top: 90px; /* ajuste conforme seu layout */
+    right: 10px; /* aqui fica no lado direito */
+    left: auto; /* garante que não esteja grudado na esquerda */
+    width: 200px;
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 999;
+  }
+
+  #menu.show {
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+  }
+  .menu-toggle {
+    display: block;
+    z-index: 999;
+    margin-left: 140px;
+  }
+
+  .link-lojas,
+  .link-promocoes,
+  .link-sobre,
+  .link-contato {
+    margin: 10px 0;
+  }
+
+  main {
+    margin-left: 1px;
+    width: 359px;
+    height: 155px;
+    background-size: cover;
+  }
+
+  .btn-saiba-mais {
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 60px;
+    height: 20px;
+    font-size: 5px;
+  }
+
+  .img-caminhao {
+    width: 30px;
+    height: 20px;
+  }
+
+  .textos {
+    font-size: 5px;
+  }
+
+  .circulo {
+    width: 30px;
+    height: 20px;
+  }
+
+  .aside {
+    margin-top: 1px;
+  }
 }
