@@ -742,15 +742,15 @@ footer {
 
   main {
     margin-left: 1px;
-    width: 425px;
-    height: 190px;
+    width: 500px;
+    height: 250px;
     background-size: cover;
   }
 
   .btn-saiba-mais {
-    margin-top: 120px;
-    margin-left: 180px;
-    width: 60px;
+    margin-top: 155px;
+    margin-left: 239px;
+    width: 70px;
     height: 20px;
     font-size: 5px;
   }
