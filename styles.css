@@ -713,7 +713,8 @@ footer {
     top: 90px; /* ajuste conforme seu layout */
     right: 10px; /* aqui fica no lado direito */
     left: auto; /* garante que não esteja grudado na esquerda */
-    width: 200px;
+    width: 190px;
+    height: 205px;
     background: #f4f4f4;
     padding: 15px;
     border-radius: 8px;
@@ -772,14 +773,14 @@ footer {
   }
 
   .nossas-lojas {
-    margin-left: -630px;
+    margin-left: -600px;
   }
 
   .bloco-loja {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: -900px;
+    margin-left: -830px;
   }
 
   .img-rua-padre-luiz-533 {
@@ -804,5 +805,9 @@ footer {
 
   .section-loja2 {
     margin-top: 500px;
+  }
+
+  .caixa-principal {
+    margin-top: -525px;
   }
 }
