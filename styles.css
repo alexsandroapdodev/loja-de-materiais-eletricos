@@ -693,7 +693,7 @@ footer {
   }
 
   .img-facebook {
-    margin-left: 135px;
+    margin-left: 200px;
   }
 
   .img-instagram {
@@ -730,7 +730,7 @@ footer {
   .menu-toggle {
     display: block;
     z-index: 999;
-    margin-left: 140px;
+    margin-left: 205px;
   }
 
   .link-lojas,
@@ -742,14 +742,14 @@ footer {
 
   main {
     margin-left: 1px;
-    width: 359px;
-    height: 155px;
+    width: 425px;
+    height: 190px;
     background-size: cover;
   }
 
   .btn-saiba-mais {
-    margin-top: 100px;
-    margin-left: 150px;
+    margin-top: 120px;
+    margin-left: 180px;
     width: 60px;
     height: 20px;
     font-size: 5px;
@@ -769,7 +769,38 @@ footer {
     height: 20px;
   }
 
-  .aside {
-    margin-top: 1px;
+  .nossas-lojas {
+    margin-left: -630px;
+  }
+
+  .bloco-loja {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -900px;
+  }
+
+  .img-rua-padre-luiz-533 {
+    width: 200px;
+
+    margin-left: -200px;
+  }
+
+  .img-rua-padre-luiz-533-2 {
+    margin-left: 280px;
+    width: 400px;
+  }
+
+  .img-rua-padre-luiz-533-3 {
+    margin-left: 280px;
+    width: 400px;
+  }
+
+  .caixa-informacoes {
+    height: 0 auto;
+  }
+
+  .section-loja2 {
+    margin-top: 500px;
   }
 }
